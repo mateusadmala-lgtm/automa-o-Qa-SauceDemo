@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.6 on win32)" generated="2026-08-13T14:02:33.372557" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Teste" source="C:\Users\home\projeto-automacao-robot\tests\login_teste.robot">
+<test id="s1-t1" name="TC01 - Validar Login com sucesso" line="11">
+<kw name="Abrir Navegador e ir até o site" type="SETUP">
+<msg time="2026-08-13T14:02:33.455080" level="FAIL">No keyword with name 'Abrir Navegador e ir até o site' found.</msg>
+<status status="FAIL" start="2026-08-13T14:02:33.454954" elapsed="0.000232">No keyword with name 'Abrir Navegador e ir até o site' found.</status>
+</kw>
+<kw name="Fechar Navegador" type="TEARDOWN">
+<msg time="2026-08-13T14:02:33.456851" level="FAIL">No keyword with name 'Fechar Navegador' found.</msg>
+<status status="FAIL" start="2026-08-13T14:02:33.456737" elapsed="0.000203">No keyword with name 'Fechar Navegador' found.</status>
+</kw>
+<doc>Teste para validar se o login será efetuado com sucesso</doc>
+<status status="FAIL" start="2026-08-13T14:02:33.452312" elapsed="0.004995">Setup failed:
+No keyword with name 'Abrir Navegador e ir até o site' found.
+
+Also teardown failed:
+No keyword with name 'Fechar Navegador' found.</status>
+</test>
+<doc>Pasta de testes referente a tela de login</doc>
+<status status="FAIL" start="2026-08-13T14:02:33.375962" elapsed="0.082605"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Teste" id="s1" pass="0" fail="1" skip="0">Login Teste</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-08-13T14:02:33.448198" level="ERROR">Error in file 'C:\Users\home\projeto-automacao-robot\tests\login_teste.robot' on line 3: Resource file '..\..\resources\common.robot' does not exist.</msg>
+<msg time="2026-08-13T14:02:33.449730" level="ERROR">Error in file 'C:\Users\home\projeto-automacao-robot\tests\login_teste.robot' on line 4: Resource file '..\..\resources\pages\login_page.robot' does not exist.</msg>
+<msg time="2026-08-13T14:02:33.451019" level="ERROR">Error in file 'C:\Users\home\projeto-automacao-robot\tests\login_teste.robot' on line 5: Resource file '..\..\variables\config.robot' does not exist.</msg>
+</errors>
+</robot>
